@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.top-container {
+    background-color: #f8f1f1;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    position: relative;
+    font-family: 'Arima Madurai', cursive, 'Montserrat', sans-serif;
+}
+
+h1 {
+    margin-top: 0;
+    /*width: 10%; if applying "width" then, in order to centre elements you must include
+    margin: 0 auto; */
+    font-family: 'Arima Madurai', cursive, 'Montserrat', sans-serif;
+    font-size: 625%;
+    /* In order to make it a dynamic site, use % or em not px for font size. 100% = 1em = 16px. 
+    If an end user changes the font size, then the font on the website will scale with it. 
+    This is important in terms of "user accessibility" as the fonts scale up so that end users with visual impairments can better use the sites.*/
+    /*note: rem means "root em". If you set your font size using this, then it will not inherit font-sizes from any parent.*/
+    font-weight: bold;
+    color: #bee5d3;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.tag-line {
+    font-family: 'Arima Madurai', cursive, 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Arima Madurai', cursive, 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.pb {
+    text-decoration: underline;
+}
+
+.facebook-img {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 26px;
+    top: 25px;
+}
+
+.instagram-img {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 43px;
+    top: 25px;
+}
+
+.youtube-img {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 60px;
+    top: 25px;
+}
+
+
+/*.middle-container {
+    background-color: #f7f7e8;
+    height: 600px;
+    padding-top: 180px;
+    padding-bottom: 160px;
+    width: 80%;
+    margin: 10px auto 10px auto;
+    font-family: 'Arima Madurai', cursive, 'Montserrat', sans-serif;
+}*/
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 25%;
+    padding: 5px;
+}
+
+.img-one {
+    height: 300px;
+    width: 300px;
+}
+
+.img-two {
+    height: 300px;
+    width: 300px;
+}
+
+.img-three {
+    height: 300px;
+    width: 300px;
+}
+
+.img-four {
+    height: 300px;
+    width: 300px;
+}
+
+
+/*.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    width: 80%;
+    top: 175px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;*/
+
+
+/*
+.box-one:hover .img-one {
+    opacity: 0.3;
+}
+.box-one:hover .middle {
+    opacity: 1;
+}*/
+
+.text {
+    background-color: #bee5d3;
+    color: white;
+    font-size: 20px;
+    padding: 16px 32px;
+    position: relative;
+    width: 100px;
+    left: 50px;
+}
+
+.bottom-container {
+    background-color: #487e95;
+    padding-top: 200px;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.bottom-social-media-links {
+    position: absolute;
+    left: 46%;
+    top: 5px;
+}
